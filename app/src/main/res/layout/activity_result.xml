@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result">
+
+    <TextView
+        android:id="@+id/lbl_Counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="63dp"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <TextView
+        android:id="@+id/lblRes_Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbl_Counter"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="32dp"
+        android:text="Kullanıcı adı :"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/lblRes_Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblRes_Username"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="45dp"
+        android:text="Şifre :"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/lblRes_Gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblRes_Password"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="40dp"
+        android:text="Cinsiyetiniz : "
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/lblRes_Class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblRes_Gender"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="47dp"
+        android:text="Sınıfınız : "
+        android:visibility="invisible" />
+</RelativeLayout>
